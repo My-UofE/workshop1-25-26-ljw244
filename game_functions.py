@@ -7,9 +7,9 @@ def pick_value(poss_values):
 
 # function to be used in game_2: Higher or Lower
 def check_higher_lower(current_val, next_val, user_input):
-    if current_val < next_val and user_input == "l":
+    if current_val < next_val and user_input == "h":
         return True
-    elif current_val > next_val and user_input == "h":
+    elif current_val > next_val and user_input == "l":
         return True
     else:
         return False
